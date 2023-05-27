@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Amiri';
+    src: url('../fonts/Amiri-Bold.eot');
+    src: url('../fonts/Amiri-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Amiri-Bold.woff2') format('woff2'),
+        url('../fonts/Amiri-Bold.woff') format('woff'),
+        url('../fonts/Amiri-Bold.ttf') format('truetype'),
+        url('../fonts/Amiri-Bold.svg#AmiriBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Amiri';
+    src: url('../fonts/Amiri-Regular.eot');
+    src: url('../fonts/Amiri-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Amiri-Regular.woff2') format('woff2'),
+        url('../fonts/Amiri-Regular.woff') format('woff'),
+        url('../fonts/Amiri-Regular.ttf') format('truetype'),
+        url('../fonts/Amiri-Regular.svg#AmiriRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 20px;
+}
+
+.modal-header {
+    background: #F7941E;
+    color: #fff;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
+.h2,
+.nav-link {
+    font-size: 21px;
+}
+
+.card {
+    background-color:deepskyblue;
+    color: black;
+    border: 2px solid #e7e7e7;
+    width: 98%;
+    height: 200px;
+    /* height:220px; */
+    /* cursor: pointer; */
+    text-align: center;
+    position: relative;
+}
+
+.card:hover{
+    background-color:#33779c;
+}
+
+.item{
+    font-size: 15px;
+    color: gray;
+}
+
+.h2 {
+    color:white;
+    position: relative;
+    bottom: -35px;
+}
+
+.fa-solid {
+    color: white;
+    /* to center icons */
+    /* display: flex;
+    justify-content: center; */
+    /* align-items:center; */
+    position: relative;
+    bottom: -25px;
+  }
+
+
+.dummy-data{
+  color:white;
+  direction: ltr;
+  font-size: 18px;
+  position: absolute;
+  top: 90%;
+  transform: translate(0, -50%);
+}
+
+.badge-pill{
+  background-color:white;
+  font-size: 18px;
+}
+
+
+@media (max-width: 1400px) {
+.dummy-data,
+.badge-pill {
+font-size: 15px;
+}
+.h2,
+.nav-link {
+font-size: 20px;
+}
+}
+
+@media (max-width: 1300px) {
+.dummy-data,
+.badge-pill {
+font-size: 13px;
+}
+.h2,
+.nav-link {
+font-size: 15px;
+}
+}
+
+@media (max-width: 1200px) {
+.dummy-data,
+.badge-pill {
+font-size: 11px;
+}
+.h2,
+.nav-link {
+font-size: 13px;
+}
+}
+
+@media (max-width: 1100px) {
+.dummy-data,
+.badge-pill {
+font-size: 9px;
+}
+.h2,
+.nav-link {
+font-size: 11px;
+}
+}
+
+@media (max-width: 770px) and (min-width:100px){
+ .card {
+  position: relative;
+}
+.h2 {
+    left: 5%;
+
+}
+.fa-solid {
+    left: 5%;
+  } 
+.dummy-data{
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  right: 70%;
+  transform: translate(0, -50%);
+  padding: 10px;
+  font-size: 12px;
+}
+.h2,
+.nav-link {
+    font-size: 18px;
+}
+}
+
+
+@media (min-height: 741px) {
+  body {
+      overflow: hidden; /* Hide scrollbars */
+    } 
+
+  }
+
+@media (max-height: 740px) {
+  body {
+    overflow: hidden; 
+  } 
+  .card {
+    background-color:deepskyblue;
+    color: black;
+    border: 2px solid #e7e7e7;
+    width: 98%;
+    height: 180px;
+    text-align: center;
+  }
+}
+
+@media (max-height: 700px) {
+  body {
+    overflow: hidden; 
+  } 
+  .card {
+    background-color:deepskyblue;
+    color: black;
+    border: 2px solid #e7e7e7;
+    width: 98%;
+    height: 170px;
+    text-align: center;
+  }
+}
+
+@media (max-height:650px) or ((max-width: 770px) and (min-width:100px)){
+  body {
+      overflow: scroll;
+    } 
+
+  }
+
+
+
