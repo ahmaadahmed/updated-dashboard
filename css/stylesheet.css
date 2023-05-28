@@ -142,31 +142,21 @@ font-size: 11px;
 }
 }
 
-@media (max-width: 770px) and (min-width:100px){
-.card {
-position: relative;
-}
-.h2 {
-  left: 5%;
-}
-.fa-solid {
-  left: 5%;
-} 
-.dummy-data{
-font-size: 10px;
-position: absolute;
-top: 50%;
-right: 70%;
-transform: translate(0, -50%);
-padding: 10px;
-font-size: 12px;
-}
+ @media (max-width: 770px) and (min-width:100px){
+.col1{
+    top: 30%;
+    text-align: right;
+    position: absolute;
+    right: 20%;
+  }
 
+.dummy-data,
+.badge-pill,
 .h2,
 .nav-link {
-  font-size: 16px;
+  font-size: 18px;
 }
-}
+} 
 
 @media (min-height: 730px) {
 body {
@@ -178,21 +168,7 @@ body {
 body {
     overflow: scroll;
   } 
-
 } 
-
-/* @media (max-height: 660px) {
-body {
-  overflow: hidden; 
-} 
-} */
-
-/* @media (max-height:500px) or ((max-width: 770px) and (min-width:100px)){
-body {
-    overflow: scroll;
-  } 
-
-} */
 
 
 
