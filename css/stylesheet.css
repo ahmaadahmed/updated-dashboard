@@ -47,14 +47,11 @@
   border: 2px solid #e7e7e7;
   width: 98%;
   height: 200px;
-  /* height:220px; */
-  /* cursor: pointer; */
-  /* text-align: center; */
   position: relative;
 }
 
 .card:hover{
-background-color:#33889c;
+background-color:#1Aabed;
 }
 
 .item{
@@ -171,26 +168,31 @@ font-size: 12px;
 }
 }
 
-@media (min-height: 741px) {
+@media (min-height: 730px) {
 body {
     overflow: hidden; 
   } 
-
 }
 
-@media (max-height: 740px) {
-body {
-  overflow: scroll; 
-} 
-
-}
-
-@media (max-height:650px) or ((max-width: 770px) and (min-width:100px)){
+@media (max-width: 770px) and (min-width:100px){
 body {
     overflow: scroll;
   } 
 
-}
+} 
+
+/* @media (max-height: 660px) {
+body {
+  overflow: hidden; 
+} 
+} */
+
+/* @media (max-height:500px) or ((max-width: 770px) and (min-width:100px)){
+body {
+    overflow: scroll;
+  } 
+
+} */
 
 
 
