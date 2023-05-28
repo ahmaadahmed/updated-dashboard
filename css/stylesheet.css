@@ -42,7 +42,7 @@
 }
 
 .card {
-  background-color:deepskyblue;
+  background-color:#37B;
   color: black;
   border: 2px solid #e7e7e7;
   width: 98%;
@@ -54,7 +54,7 @@
 }
 
 .card:hover{
-background-color:#33779c;
+background-color:#33889c;
 }
 
 .item{
