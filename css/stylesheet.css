@@ -31,7 +31,7 @@
   color: red;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .card:hover {
-  background-color:rgb(215, 225, 233);
+  background-color: rgb(215, 225, 233);
 } 
 
 .item {
@@ -83,38 +83,17 @@
 }
 
 .badge-pill {
-  background-color:#40ade3;
+  background-color: #40ade3;
   color: white;
 }
 
 .h2,
 .fa-solid,
 .dummy-data {
-    color:#40ade3;
-  }
+    color: #40ade3;
+}
   
 
-@media screen and (max-width: 768px){
-.col1 {
-    top: 30%;
-    text-align: right;
-    position: absolute;
-    right: 20%;
-}
-body {
-  overflow: scroll;
-} 
-
-.h2,
-.nav-link {
-  font-size: 1rem;
-}
-
-.dummy-data,
-.badge-pill {
-  font-size: 0.9rem;
-}
-}
 
 
 @media screen and (min-height: 600px) {
@@ -135,7 +114,33 @@ body {
   .card {
     height: 60vh;
 }
-}
+}                                                                                                                                                                 
+
+  @media screen and (max-width: 768px){
+    .col1 {
+        top: 30%;
+        text-align: right;
+        position: absolute;
+        right: 20%;
+    }
+    body {
+      overflow: scroll;
+    } 
+    
+    .h2,
+    .nav-link {
+      font-size: 1rem;
+    }
+    
+    .dummy-data,
+    .badge-pill {
+      font-size: 0.9rem;
+    }
+    }
+    
+
+
+
 
 
 
