@@ -26,149 +26,116 @@
   font-size: 20px;
 }
 
-.modal-header {
-  background: #F7941E;
-  color: #fff;
-}
-
 .required:after {
   content: "*";
   color: red;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .h2,
 .nav-link {
-  font-size: 18px;
+  font-size: 1.1vw;
+}
+
+.dummy-data,
+.badge-pill {
+  font-size: 1vw;
 }
 
 .card {
-  background-color:#37B;
+  background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
-  width: 98%;
-  height: 200px;
+  width: 85%;
+  height: 25vh;
   position: relative;
 }
 
-.card:hover{
-background-color:#1Aabed;
+.card:hover {
+  background-color:rgb(215, 225, 233);
+} 
+
+.item {
+  font-size: 15px;
+  color: gray;
 }
 
-.item{
-font-size: 15px;
-color: gray;
+.col1 {
+  text-align: center;
+  position: absolute;
+  top: 30%;
 }
 
-.col1{
-text-align: center;
-position: absolute;
-top: 30%;
-}
-
-.h2 {
-color:white;
-/* position: relative;
-bottom: 5%;  */
-}
-
-.fa-solid {
-color: white;
-/* position: absolute;
-bottom: 40%; */
-}
-
-
-.col2{
+.col2 {
   position: absolute;
   top: 50%;
   right: 50%;
 }
 
-.dummy-data{
-  color:white;
+.dummy-data {
   direction: ltr;
-  font-size: 18px;
   position: absolute;
   top: 90%;
   transform: translate(0, -50%);
 }
 
-.badge-pill{
-background-color:white;
-font-size: 18px;
-}
-
-@media (max-width: 1400px) {
-.dummy-data,
 .badge-pill {
-font-size: 15px;
-}
-.h2,
-.nav-link {
-font-size: 17px;
-}
+  background-color:#40ade3;
+  color: white;
 }
 
-@media (max-width: 1300px) {
-.dummy-data,
-.badge-pill {
-font-size: 13px;
-}
 .h2,
-.nav-link {
-font-size: 15px;
-}
-}
+.fa-solid,
+.dummy-data {
+    color:#40ade3;
+  }
+  
 
-@media (max-width: 1200px) {
-.dummy-data,
-.badge-pill {
-font-size: 11px;
-}
-.h2,
-.nav-link {
-font-size: 13px;
-}
-}
-
-@media (max-width: 1100px) {
-.dummy-data,
-.badge-pill {
-font-size: 9px;
-}
-.h2,
-.nav-link {
-font-size: 11px;
-}
-}
-
- @media (max-width: 770px) and (min-width:100px){
-.col1{
+@media screen and (max-width: 768px){
+.col1 {
     top: 30%;
     text-align: right;
     position: absolute;
     right: 20%;
-  }
+}
+body {
+  overflow: scroll;
+} 
 
-.dummy-data,
-.badge-pill,
 .h2,
 .nav-link {
-  font-size: 18px;
+  font-size: 1rem;
 }
-} 
 
-@media (min-height: 730px) {
+.dummy-data,
+.badge-pill {
+  font-size: 0.9rem;
+}
+}
+
+
+@media screen and (min-height: 600px) {
 body {
     overflow: hidden; 
-  } 
+} 
 }
 
-@media (max-width: 770px) and (min-width:100px){
-body {
-    overflow: scroll;
-  } 
-} 
+
+@media screen and (max-height: 599px){
+  .card {
+    height: 35vh;
+}
+}
+
+
+@media screen and (max-height: 400px){
+  .card {
+    height: 60vh;
+}
+}
 
 
 
