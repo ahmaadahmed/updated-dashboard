@@ -96,47 +96,47 @@
 
 
 
-@media screen and (min-height: 600px) {
+@media (min-height: 600px) {
 body {
     overflow: hidden; 
 } 
 }
 
 
-@media screen and (max-height: 599px){
+@media (max-height: 599px){
   .card {
     height: 35vh;
 }
 }
 
 
-@media screen and (max-height: 400px){
+@media (max-height: 400px){
   .card {
     height: 60vh;
 }
 }                                                                                                                                                                 
 
-  @media screen and (max-width: 768px){
-    .col1 {
-        top: 30%;
-        text-align: right;
-        position: absolute;
-        right: 20%;
-    }
-    body {
+@media (max-width: 768px){
+  .col1 {
+      top: 30%;
+      text-align: right;
+      position: absolute;
+      right: 20%;
+  }
+  body {
       overflow: scroll;
-    } 
+  } 
     
-    .h2,
-    .nav-link {
-      font-size: 1rem;
-    }
+  .h2,
+  .nav-link {
+    font-size: 1rem;
+  }
     
-    .dummy-data,
-    .badge-pill {
-      font-size: 0.9rem;
-    }
-    }
+  .dummy-data,
+  .badge-pill {
+    font-size: 0.9rem;
+  }
+}
     
 
 
