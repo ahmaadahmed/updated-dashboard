@@ -54,9 +54,9 @@
   position: relative;
 }
 
-.card:hover {
+/* .card:hover {
   background-color: rgb(215, 225, 233);
-} 
+}  */
 
 .item {
   font-size: 15px;
@@ -93,22 +93,17 @@
     color: #40ade3;
 }
   
-
-
-
 @media (min-height: 600px) {
 body {
     overflow: hidden; 
 } 
 }
 
-
 @media (max-height: 599px){
   .card {
     height: 35vh;
 }
 }
-
 
 @media (max-height: 400px){
   .card {
