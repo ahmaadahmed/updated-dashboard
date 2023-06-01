@@ -108,6 +108,7 @@ body {
 @media (max-height: 400px){
   .card {
     height: 60vh;
+    width: 95%;
 }
 }                                                                                                                                                                 
 
